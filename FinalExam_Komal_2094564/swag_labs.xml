@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="10" parallel="false" thread-count="1">
+
+    <!-- call classes within a package to run different @test-->
+    <test name="test" thread-count="5">
+        <classes>
+            <class name="SWAG_LBS.login"></class>
+            <!--<class name="SWAG_LBS.product_purchase"></class>-->
+            <class name="SWAG_LBS.swag_lab"></class>
+        </classes>
+    </test>
+
+</suite>
